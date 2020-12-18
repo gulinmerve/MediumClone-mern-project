@@ -3,12 +3,13 @@ import './TrendingCard.css';
 
 const TrendingCard = (props) => {
   return (
+    
     <div className="trendingcard-container">
-      <div className="number-container">1</div>
+      <div className="number-container">01</div>
 
       <div className="trendingtext-container">
         <div className="trendingusername">
-          <a href="">{props.userprofile}</a>
+          <a href="">{props.profileImage}</a>
           {props.username}
         </div>
         <div className="trendingtitle">{props.title}</div>
@@ -18,4 +19,4 @@ const TrendingCard = (props) => {
   );
 };
 
-export default TrendingCard;
+export default TrendingCard;  
